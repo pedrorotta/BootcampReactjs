@@ -1,0 +1,43 @@
+body{
+ border: 0px;
+}
+
+*{
+ box-sizing: border-box;
+}
+
+.img-gal{
+ display: block;
+ margin: auto;
+ border-radius: 20px;
+}
+
+#display{
+ display: ;
+}
+
+.conten-imagen-gal{
+ position: relative;
+}
+
+.texto-img{
+ background-color: rgba(0,0,0);
+ opacity: 0.75;
+ position: absolute;
+ width: 75.7%;
+ left: 12.2%;
+ height: 100%;
+ display: none;
+ border-radius: 20px;
+}
+
+.texto-img p{
+ text-align: center;
+ padding-top: 30%;
+ color: aliceblue;
+}
+
+.conten-imagen-gal:hover .texto-img{
+ display: block;
+}
+
