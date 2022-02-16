@@ -1,0 +1,14 @@
+#divimagen1{
+ width: 35%;
+ display: none;
+}
+
+#divimagen1 img{
+ display: block;
+ margin: auto;
+ border: 2px solid black;
+ border-radius:20px;
+ 
+}
+
+
