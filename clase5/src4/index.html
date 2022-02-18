@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Shopping Udep</title>
+ <link rel="stylesheet" href="estilos.css">
+ <script src="https://kit.fontawesome.com/85c0380de3.js" crossorigin="anonymous"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+
+
+ <header class="header-responsive">
+ <!-- Zona contáctanos: Inicio del header
+ Se ha colocado los i dentro con el h3 y su respectivo a. Los
+ -->
+  <div onclick = "contactus()" class="contacto">
+   <h3>Contáctanos  
+    <a href="https://www.instagram.com/pedrorotta_ime/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
+    <a href="https://www.facebook.com/pedrorottaime" target="_blank"><i class="fa-brands fa-facebook"></i> </h3></a>
+  </div>
+ </header>
+
+ <aside id="modal-contactanos" class="show_modal">
+  <!--El aside que contiene al modal de contáctanos (display on contactus)-->
+  <h2 class="modal-title">Déjanos tus datos: </h2>
+  <form action="#" method="get" class="order">
+
+   <label for="nameform">Nombre: </label>
+   <input type="text" id="nameform" value="">
+
+   <label for="emailform">Email: </label>
+   <input type ="email" id="emailform" value="">
+
+   <label for="celform">Celular: </label>
+   <input type="text" id="name" value="">
+   <button>Enviar</button>
+  </form>
+  <i onclick="closecontactus()" class="fa-solid fa-xmark mark-closed"></i>
+ </aside>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <i class="fa-solid fa-user"></i> <!--iuser-->
+ <i class="fa-solid fa-cart-shopping"></i>   <!--ishopping-->  
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <!--lupa--> 
+
+
+ <script src="script.js"></script>
+</body>
+</html>
