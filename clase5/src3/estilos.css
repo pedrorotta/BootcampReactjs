@@ -1,0 +1,30 @@
+
+
+section.container-images-flex{
+ position: relative;
+ display: flex;
+ flex-direction: column;
+}
+
+.container-row-flex{
+ margin-top: 50px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.card-flex-product{
+ display: flex;
+ flex-direction: column;
+}
+
+.description-card{
+ text-align: center;
+ font-size: 1vw;
+}
+
+.card-product{
+ margin-left: 10%;
+ border-radius: 25px;
+ border: 2px solid black;
+}
