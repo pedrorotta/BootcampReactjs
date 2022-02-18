@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="estilos.css">
+</head>
+<body onload="cargarvalores()">
+ 
+ <section>
+  <h2>¿Debes Votar?</h2>
+  <p>Ingresa tu edad y has click : <p>
+  <form action="#" method="get">
+   <label for="edad">Edad: </label>
+   <input type="text" id="edad" value="18">
+   <button onclick="verificaredad()">Envía tu respuesta</button>
+ </form>
+</section>
+<section>
+<button onclick = "decidir()">Tocar para decidir</button>
+<div id = "MostrarColor">
+</div>
+</section>
+
+
+
+
+<section>
+
+  <form action="#" method="get">
+    <label for="nombreagregado">Ingrese nombre: </label>
+    <input id="nombreagregado" type="text" value="">
+    <button onclick="AgregarValor()">Agregar</button>
+  </form>
+
+  <div id = "colectiondiv">
+    Colección de nombres: 
+  </div>
+
+</section>
+
+
+
+
+
+ <script src="script.js"></script>
+</body>
+</html>
