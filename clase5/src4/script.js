@@ -11,3 +11,7 @@ function closecontactus(){
  ModalContactus = document.querySelector("#modal-contactanos");
  ModalContactus.className = "closemodal";
 }
+
+//crear el modal del login-session
+
+//crear el modal de shopping

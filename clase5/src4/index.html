@@ -17,14 +17,47 @@
 
 
  <header class="header-responsive">
- <!-- Zona contáctanos: Inicio del header
- Se ha colocado los i dentro con el h3 y su respectivo a. Los
- -->
   <div onclick = "contactus()" class="contacto">
+    <!-- Zona contáctanos: Inicio del header
+    Se ha colocado los i dentro con el h3 y su  respectivo a. Los
+    -->
    <h3>Contáctanos  
     <a href="https://www.instagram.com/pedrorotta_ime/" target="_blank"><i class="fa-brands fa-instagram"></i> </a>
     <a href="https://www.facebook.com/pedrorottaime" target="_blank"><i class="fa-brands fa-facebook"></i> </h3></a>
   </div>
+
+  <div class="principal-header-account">
+   <!--El div principal del header-->
+   <div class="div-logo-image">
+    <!--El Div del logo-->
+    <a href="index.html">
+    <img src="images/logo-udep.png" alt="logo" width="100%">
+    </a>
+   </div>
+
+   <div class="div-buscador-header">
+    <!--Buscador del header-->
+    <input type="text" placeholder="Busca tu producto...">
+    <i class="fa-solid fa-magnifying-glass glass"></i>
+   </div>
+
+   <div class="div-users-login-shopping">
+    <!--Carrito de compras y usuario-->
+    <div onclick = "login()" class="users-login-button">
+     <p class="user-login-button-text"><i class="fa-solid fa-user"></i> Mi cuenta </p>
+    </div>
+    <div onclick="openmodalshopping()" class="shooping-button-car">
+     <!--Div para el carrito de compras-->
+     <i class="fa-solid fa-cart-shopping car-shooping-button-icon"></i>
+     <div class="counter-shopping-div">
+      <p>0</p>
+     </div>
+    </div>
+   </div>
+
+  </div>
+
+
  </header>
 
  <aside id="modal-contactanos" class="show_modal">
@@ -47,21 +80,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
- <i class="fa-solid fa-user"></i> <!--iuser-->
- <i class="fa-solid fa-cart-shopping"></i>   <!--ishopping-->  
- <i class="fa-solid fa-magnifying-glass"></i>
- <!--lupa--> 
 
 
  <script src="script.js"></script>

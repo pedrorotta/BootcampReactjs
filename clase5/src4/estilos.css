@@ -1,3 +1,4 @@
+
 :root {
  --principal1: #1e90ff;
  --modal1 : linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(106,106,106,0.7906512946975666) 55%, rgba(111,119,121,1) 100%);
@@ -21,8 +22,6 @@ body{
 header.header-responsive{
  margin: 0px;
  width: 100%;
- border: 2px solid black;
- height: 4vw;
 
 }
 
@@ -30,6 +29,7 @@ div.contacto{
  margin: 0px;
  background-color: var(--principal1);
  cursor: pointer;
+ padding-top: 2% ;
 }
 
 div.contacto h3{
@@ -37,6 +37,8 @@ div.contacto h3{
  padding-right: 1.8vw;
  font-size: 1vw;
  margin: 0px;
+ position: relative;
+ bottom: 1vw;
 }
 
 .show_modal{
@@ -93,3 +95,95 @@ form.order button{
 .closemodal{
  display: none;
 }
+
+.principal-header-account{
+
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+}
+
+.div-logo-image{
+ width: 18%;
+ margin-top: 0.5%;
+}
+
+.div-buscador-header{
+ margin-top: 1.5%;
+ position: relative;
+ padding: 1%;
+ width: 18%;
+}
+
+div.div-buscador-header input{
+ width: 100%;
+ padding: 4%;
+}
+
+.glass{
+ position: absolute;
+ right: 15%;
+ top: 30%;
+} 
+
+.div-users-login-shopping{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 20%;
+}
+
+.users-login-button{
+ padding-right: 5%;
+ padding-top: 5%;
+ cursor: pointer;
+}
+
+.users-login-button:hover{
+ color: gray;
+}
+
+
+.shooping-button-car{
+ position: relative;
+ cursor: pointer;
+}
+
+.counter-shopping-div{
+ padding: 0px;
+ border: 2px solid black;
+ width: 25px;
+ height: 25px;
+ background-color: black;
+ border-radius : 50%;
+ position: absolute;
+ top: 22%;
+ left: 1%;
+}
+
+div.counter-shopping-div p{
+ margin: 0px;
+ color: aliceblue;
+ text-align: center ;
+ position: inherit;
+ padding-left: 5px;
+ 
+}
+
+.car-shooping-button-icon{
+ font-size: 30px;
+ position: absolute;
+ top: 30%;
+ right: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
