@@ -1,0 +1,56 @@
+body{
+ border: 0px;
+}
+
+*{
+ box-sizing: border-box;
+}
+.conten-imagen-gal{
+ position: relative;
+}
+
+.img-gal{
+ display: block;
+ margin: auto;
+ border-radius: 20px; 
+}
+
+.texto-img{
+ background-color: rgba(0,0,0);
+ opacity: 0.75;
+ position: absolute;
+ width: 75.7%;
+ left: 12.2%;
+ height: 100%;
+ display: none;
+ border-radius: 20px;
+}
+
+.texto-img p{
+ font-size: 1.5vw;
+ position: absolute;
+ left: 0;
+ padding: 22% 0px 0px 0px;
+ text-align: center;
+ color: aliceblue;
+ z-index: 0;
+}
+
+.conten-imagen-gal:hover .texto-img{
+ display: block;
+ cursor: pointer;
+}
+
+.imgtex-gal{
+ position: absolute;
+ top: 0;
+ left: 0;
+ opacity: 0;
+ z-index: 1
+}
+
+/*
+#display{
+ display: ;
+}
+*/
